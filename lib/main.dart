@@ -17,12 +17,12 @@ void main() {
   );
 }
 
-class DicePage extends StatefulWidget {
+  class DicePage extends StatefulWidget {
   @override
   _DicePageState createState() => _DicePageState();
-}
+  }
 
-class _DicePageState extends State<DicePage> {
+  class _DicePageState extends State<DicePage> {
 
   var leftDiceNumber = 1 + Random().nextInt(6);
   var rightDiceNumber = 1 + Random().nextInt(6);
